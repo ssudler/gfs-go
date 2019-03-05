@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEDB28A222ECBBC008F5272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB289222ECBBC008F5272 /* AppDelegate.swift */; };
+		1FEDB28C222ECBBC008F5272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB28B222ECBBC008F5272 /* ViewController.swift */; };
+		1FEDB28F222ECBBC008F5272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDB28D222ECBBC008F5272 /* Main.storyboard */; };
+		1FEDB291222ECBBC008F5272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDB290222ECBBC008F5272 /* Assets.xcassets */; };
+		1FEDB294222ECBBC008F5272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDB292222ECBBC008F5272 /* LaunchScreen.storyboard */; };
+		1FEDB29F222ECBBC008F5272 /* GFS_GOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB29E222ECBBC008F5272 /* GFS_GOTests.swift */; };
+		1FEDB2AA222ECBBD008F5272 /* GFS_GOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB2A9222ECBBD008F5272 /* GFS_GOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FEDB29B222ECBBC008F5272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEDB27E222ECBBC008F5272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEDB285222ECBBC008F5272;
+			remoteInfo = "GFS GO";
+		};
+		1FEDB2A6222ECBBC008F5272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FEDB27E222ECBBC008F5272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FEDB285222ECBBC008F5272;
+			remoteInfo = "GFS GO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FEDB286222ECBBC008F5272 /* GFS GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GFS GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDB289222ECBBC008F5272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FEDB28B222ECBBC008F5272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FEDB28E222ECBBC008F5272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEDB290222ECBBC008F5272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEDB293222ECBBC008F5272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEDB295222ECBBC008F5272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEDB29A222ECBBC008F5272 /* GFS GOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFS GOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDB29E222ECBBC008F5272 /* GFS_GOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFS_GOTests.swift; sourceTree = "<group>"; };
+		1FEDB2A0222ECBBC008F5272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEDB2A5222ECBBC008F5272 /* GFS GOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFS GOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEDB2A9222ECBBD008F5272 /* GFS_GOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFS_GOUITests.swift; sourceTree = "<group>"; };
+		1FEDB2AB222ECBBD008F5272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEDB283222ECBBC008F5272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB297222ECBBC008F5272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB2A2222ECBBC008F5272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEDB27D222ECBBC008F5272 = {
+			isa = PBXGroup;
+			children = (
+				1FEDB288222ECBBC008F5272 /* GFS GO */,
+				1FEDB29D222ECBBC008F5272 /* GFS GOTests */,
+				1FEDB2A8222ECBBC008F5272 /* GFS GOUITests */,
+				1FEDB287222ECBBC008F5272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEDB287222ECBBC008F5272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDB286222ECBBC008F5272 /* GFS GO.app */,
+				1FEDB29A222ECBBC008F5272 /* GFS GOTests.xctest */,
+				1FEDB2A5222ECBBC008F5272 /* GFS GOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEDB288222ECBBC008F5272 /* GFS GO */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDB289222ECBBC008F5272 /* AppDelegate.swift */,
+				1FEDB28B222ECBBC008F5272 /* ViewController.swift */,
+				1FEDB28D222ECBBC008F5272 /* Main.storyboard */,
+				1FEDB290222ECBBC008F5272 /* Assets.xcassets */,
+				1FEDB292222ECBBC008F5272 /* LaunchScreen.storyboard */,
+				1FEDB295222ECBBC008F5272 /* Info.plist */,
+			);
+			path = "GFS GO";
+			sourceTree = "<group>";
+		};
+		1FEDB29D222ECBBC008F5272 /* GFS GOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDB29E222ECBBC008F5272 /* GFS_GOTests.swift */,
+				1FEDB2A0222ECBBC008F5272 /* Info.plist */,
+			);
+			path = "GFS GOTests";
+			sourceTree = "<group>";
+		};
+		1FEDB2A8222ECBBC008F5272 /* GFS GOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDB2A9222ECBBD008F5272 /* GFS_GOUITests.swift */,
+				1FEDB2AB222ECBBD008F5272 /* Info.plist */,
+			);
+			path = "GFS GOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEDB285222ECBBC008F5272 /* GFS GO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDB2AE222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GO" */;
+			buildPhases = (
+				1FEDB282222ECBBC008F5272 /* Sources */,
+				1FEDB283222ECBBC008F5272 /* Frameworks */,
+				1FEDB284222ECBBC008F5272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GFS GO";
+			productName = "GFS GO";
+			productReference = 1FEDB286222ECBBC008F5272 /* GFS GO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FEDB299222ECBBC008F5272 /* GFS GOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDB2B1222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOTests" */;
+			buildPhases = (
+				1FEDB296222ECBBC008F5272 /* Sources */,
+				1FEDB297222ECBBC008F5272 /* Frameworks */,
+				1FEDB298222ECBBC008F5272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEDB29C222ECBBC008F5272 /* PBXTargetDependency */,
+			);
+			name = "GFS GOTests";
+			productName = "GFS GOTests";
+			productReference = 1FEDB29A222ECBBC008F5272 /* GFS GOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FEDB2A4222ECBBC008F5272 /* GFS GOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEDB2B4222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOUITests" */;
+			buildPhases = (
+				1FEDB2A1222ECBBC008F5272 /* Sources */,
+				1FEDB2A2222ECBBC008F5272 /* Frameworks */,
+				1FEDB2A3222ECBBC008F5272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FEDB2A7222ECBBC008F5272 /* PBXTargetDependency */,
+			);
+			name = "GFS GOUITests";
+			productName = "GFS GOUITests";
+			productReference = 1FEDB2A5222ECBBC008F5272 /* GFS GOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEDB27E222ECBBC008F5272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MadLads;
+				TargetAttributes = {
+					1FEDB285222ECBBC008F5272 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1FEDB299222ECBBC008F5272 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1FEDB285222ECBBC008F5272;
+					};
+					1FEDB2A4222ECBBC008F5272 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1FEDB285222ECBBC008F5272;
+					};
+				};
+			};
+			buildConfigurationList = 1FEDB281222ECBBC008F5272 /* Build configuration list for PBXProject "GFS GO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEDB27D222ECBBC008F5272;
+			productRefGroup = 1FEDB287222ECBBC008F5272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEDB285222ECBBC008F5272 /* GFS GO */,
+				1FEDB299222ECBBC008F5272 /* GFS GOTests */,
+				1FEDB2A4222ECBBC008F5272 /* GFS GOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEDB284222ECBBC008F5272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDB294222ECBBC008F5272 /* LaunchScreen.storyboard in Resources */,
+				1FEDB291222ECBBC008F5272 /* Assets.xcassets in Resources */,
+				1FEDB28F222ECBBC008F5272 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB298222ECBBC008F5272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB2A3222ECBBC008F5272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEDB282222ECBBC008F5272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDB28C222ECBBC008F5272 /* ViewController.swift in Sources */,
+				1FEDB28A222ECBBC008F5272 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB296222ECBBC008F5272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDB29F222ECBBC008F5272 /* GFS_GOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FEDB2A1222ECBBC008F5272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEDB2AA222ECBBD008F5272 /* GFS_GOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FEDB29C222ECBBC008F5272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEDB285222ECBBC008F5272 /* GFS GO */;
+			targetProxy = 1FEDB29B222ECBBC008F5272 /* PBXContainerItemProxy */;
+		};
+		1FEDB2A7222ECBBC008F5272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FEDB285222ECBBC008F5272 /* GFS GO */;
+			targetProxy = 1FEDB2A6222ECBBC008F5272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FEDB28D222ECBBC008F5272 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEDB28E222ECBBC008F5272 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEDB292222ECBBC008F5272 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEDB293222ECBBC008F5272 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEDB2AC222ECBBD008F5272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FEDB2AD222ECBBD008F5272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEDB2AF222ECBBD008F5272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FEDB2B0222ECBBD008F5272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FEDB2B2222ECBBD008F5272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFS GO.app/GFS GO";
+			};
+			name = Debug;
+		};
+		1FEDB2B3222ECBBD008F5272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFS GO.app/GFS GO";
+			};
+			name = Release;
+		};
+		1FEDB2B5222ECBBD008F5272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GFS GO";
+			};
+			name = Debug;
+		};
+		1FEDB2B6222ECBBD008F5272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GFS GOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GFS GO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEDB281222ECBBC008F5272 /* Build configuration list for PBXProject "GFS GO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDB2AC222ECBBD008F5272 /* Debug */,
+				1FEDB2AD222ECBBD008F5272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDB2AE222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDB2AF222ECBBD008F5272 /* Debug */,
+				1FEDB2B0222ECBBD008F5272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDB2B1222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDB2B2222ECBBD008F5272 /* Debug */,
+				1FEDB2B3222ECBBD008F5272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEDB2B4222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEDB2B5222ECBBD008F5272 /* Debug */,
+				1FEDB2B6222ECBBD008F5272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEDB27E222ECBBC008F5272 /* Project object */;
+}
