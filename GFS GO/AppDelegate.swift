@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GFS GO
 //
-//  Created by studente on 3/5/19.
+//  Created by ssudler on 3/5/19.
 //  Copyright © 2019 MadLads. All rights reserved.
 //
 

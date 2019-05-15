@@ -2,7 +2,7 @@
 //  ViewController2.swift
 //  GFS GO
 //
-//  Created by studente on 4/24/19.
+//  Created by ssudler on 4/24/19.
 //  Copyright © 2019 MadLads. All rights reserved.
 //
 

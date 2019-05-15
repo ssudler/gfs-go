@@ -2,7 +2,7 @@
 //  MapController.swift
 //  GFS GO
 //
-//  Created by studente on 5/9/19.
+//  Created by ssudler on 5/9/19.
 //  Copyright © 2019 MadLads. All rights reserved.
 //
 
