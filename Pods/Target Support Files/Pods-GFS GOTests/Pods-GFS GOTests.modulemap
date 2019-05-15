@@ -1,0 +1,6 @@
+framework module Pods_GFS_GOTests {
+  umbrella header "Pods-GFS GOTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

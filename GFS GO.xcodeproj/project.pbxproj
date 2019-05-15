@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129E470A00F02BF5091CDDD4 /* Pods_GFS_GOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23DD85588A4760D46A71614C /* Pods_GFS_GOUITests.framework */; };
+		1F42E29D226F519400132825 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F42E29C226F519400132825 /* GoogleService-Info.plist */; };
+		1FB88B832270F9AF008A81D5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB88B822270F9AF008A81D5 /* ViewController2.swift */; };
 		1FEDB28A222ECBBC008F5272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB289222ECBBC008F5272 /* AppDelegate.swift */; };
 		1FEDB28C222ECBBC008F5272 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB28B222ECBBC008F5272 /* ViewController.swift */; };
 		1FEDB28F222ECBBC008F5272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDB28D222ECBBC008F5272 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		1FEDB294222ECBBC008F5272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDB292222ECBBC008F5272 /* LaunchScreen.storyboard */; };
 		1FEDB29F222ECBBC008F5272 /* GFS_GOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB29E222ECBBC008F5272 /* GFS_GOTests.swift */; };
 		1FEDB2AA222ECBBD008F5272 /* GFS_GOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDB2A9222ECBBD008F5272 /* GFS_GOUITests.swift */; };
+		1FFD6FB522849F110071935F /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD6FB422849F110071935F /* MapController.swift */; };
+		4A8569D1ED928C682881E582 /* Pods_GFS_GOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FC583A6953AEB9322B6226 /* Pods_GFS_GOTests.framework */; };
+		4D0D835D204443E7DF6D1E71 /* Pods_GFS_GO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35A89B7CD394FA9BA6EAD63 /* Pods_GFS_GO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F42E29C226F519400132825 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FB88B822270F9AF008A81D5 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		1FEDB286222ECBBC008F5272 /* GFS GO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GFS GO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEDB289222ECBBC008F5272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FEDB28B222ECBBC008F5272 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		1FEDB2A5222ECBBC008F5272 /* GFS GOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GFS GOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEDB2A9222ECBBD008F5272 /* GFS_GOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFS_GOUITests.swift; sourceTree = "<group>"; };
 		1FEDB2AB222ECBBD008F5272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFD6FB422849F110071935F /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		23DD85588A4760D46A71614C /* Pods_GFS_GOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFS_GOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C2230EC30ADB4325A3FFD /* Pods-GFS GOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GOUITests.release.xcconfig"; path = "Target Support Files/Pods-GFS GOUITests/Pods-GFS GOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25FC583A6953AEB9322B6226 /* Pods_GFS_GOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFS_GOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF4B3A6C1C35BF463621F85 /* Pods-GFS GOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GOTests.debug.xcconfig"; path = "Target Support Files/Pods-GFS GOTests/Pods-GFS GOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60B8E295B909732BC2FE696B /* Pods-GFS GO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GO.release.xcconfig"; path = "Target Support Files/Pods-GFS GO/Pods-GFS GO.release.xcconfig"; sourceTree = "<group>"; };
+		7450027F16B1D6EB872F529E /* Pods-GFS GOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GOTests.release.xcconfig"; path = "Target Support Files/Pods-GFS GOTests/Pods-GFS GOTests.release.xcconfig"; sourceTree = "<group>"; };
+		B35A89B7CD394FA9BA6EAD63 /* Pods_GFS_GO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GFS_GO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE774646CC5812BCE311F5A /* Pods-GFS GO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GO.debug.xcconfig"; path = "Target Support Files/Pods-GFS GO/Pods-GFS GO.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E9C61ADA20EEE04978A7BC /* Pods-GFS GOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFS GOUITests.debug.xcconfig"; path = "Target Support Files/Pods-GFS GOUITests/Pods-GFS GOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0D835D204443E7DF6D1E71 /* Pods_GFS_GO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8569D1ED928C682881E582 /* Pods_GFS_GOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129E470A00F02BF5091CDDD4 /* Pods_GFS_GOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				1FEDB29D222ECBBC008F5272 /* GFS GOTests */,
 				1FEDB2A8222ECBBC008F5272 /* GFS GOUITests */,
 				1FEDB287222ECBBC008F5272 /* Products */,
+				6E2563B5A4FF8DE948BEF5CA /* Pods */,
+				976ED71F78F4CB177BCEA6D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +122,13 @@
 			children = (
 				1FEDB289222ECBBC008F5272 /* AppDelegate.swift */,
 				1FEDB28B222ECBBC008F5272 /* ViewController.swift */,
+				1FB88B822270F9AF008A81D5 /* ViewController2.swift */,
+				1FFD6FB422849F110071935F /* MapController.swift */,
 				1FEDB28D222ECBBC008F5272 /* Main.storyboard */,
 				1FEDB290222ECBBC008F5272 /* Assets.xcassets */,
 				1FEDB292222ECBBC008F5272 /* LaunchScreen.storyboard */,
 				1FEDB295222ECBBC008F5272 /* Info.plist */,
+				1F42E29C226F519400132825 /* GoogleService-Info.plist */,
 			);
 			path = "GFS GO";
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = "GFS GOUITests";
 			sourceTree = "<group>";
 		};
+		6E2563B5A4FF8DE948BEF5CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE774646CC5812BCE311F5A /* Pods-GFS GO.debug.xcconfig */,
+				60B8E295B909732BC2FE696B /* Pods-GFS GO.release.xcconfig */,
+				2BF4B3A6C1C35BF463621F85 /* Pods-GFS GOTests.debug.xcconfig */,
+				7450027F16B1D6EB872F529E /* Pods-GFS GOTests.release.xcconfig */,
+				E9E9C61ADA20EEE04978A7BC /* Pods-GFS GOUITests.debug.xcconfig */,
+				259C2230EC30ADB4325A3FFD /* Pods-GFS GOUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		976ED71F78F4CB177BCEA6D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B35A89B7CD394FA9BA6EAD63 /* Pods_GFS_GO.framework */,
+				25FC583A6953AEB9322B6226 /* Pods_GFS_GOTests.framework */,
+				23DD85588A4760D46A71614C /* Pods_GFS_GOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEDB2AE222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GO" */;
 			buildPhases = (
+				5198F51D818AB71BED27146D /* [CP] Check Pods Manifest.lock */,
 				1FEDB282222ECBBC008F5272 /* Sources */,
 				1FEDB283222ECBBC008F5272 /* Frameworks */,
 				1FEDB284222ECBBC008F5272 /* Resources */,
+				C45E36131D72E80C90E6B80C /* [CP] Embed Pods Frameworks */,
+				4BD3C2CB6B489FFAEF6BFF51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEDB2B1222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOTests" */;
 			buildPhases = (
+				D1A1EDE485F963E2BC799A11 /* [CP] Check Pods Manifest.lock */,
 				1FEDB296222ECBBC008F5272 /* Sources */,
 				1FEDB297222ECBBC008F5272 /* Frameworks */,
 				1FEDB298222ECBBC008F5272 /* Resources */,
@@ -167,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FEDB2B4222ECBBD008F5272 /* Build configuration list for PBXNativeTarget "GFS GOUITests" */;
 			buildPhases = (
+				9C2669422F959B62503EB788 /* [CP] Check Pods Manifest.lock */,
 				1FEDB2A1222ECBBC008F5272 /* Sources */,
 				1FEDB2A2222ECBBC008F5272 /* Frameworks */,
 				1FEDB2A3222ECBBC008F5272 /* Resources */,
@@ -230,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEDB294222ECBBC008F5272 /* LaunchScreen.storyboard in Resources */,
+				1F42E29D226F519400132825 /* GoogleService-Info.plist in Resources */,
 				1FEDB291222ECBBC008F5272 /* Assets.xcassets in Resources */,
 				1FEDB28F222ECBBC008F5272 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +306,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD3C2CB6B489FFAEF6BFF51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GFS GO/Pods-GFS GO-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GFS GO/Pods-GFS GO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5198F51D818AB71BED27146D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFS GO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2669422F959B62503EB788 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFS GOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45E36131D72E80C90E6B80C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GFS GO/Pods-GFS GO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GFS GO/Pods-GFS GO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A1EDE485F963E2BC799A11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFS GOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FEDB282222ECBBC008F5272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFD6FB522849F110071935F /* MapController.swift in Sources */,
 				1FEDB28C222ECBBC008F5272 /* ViewController.swift in Sources */,
 				1FEDB28A222ECBBC008F5272 /* AppDelegate.swift in Sources */,
+				1FB88B832270F9AF008A81D5 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +610,7 @@
 		};
 		1FEDB2AF222ECBBD008F5272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE774646CC5812BCE311F5A /* Pods-GFS GO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +619,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadLads.GFS-GO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +628,7 @@
 		};
 		1FEDB2B0222ECBBD008F5272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B8E295B909732BC2FE696B /* Pods-GFS GO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +637,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MadLads.GFS-GO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MadLads.GFS-GO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +646,7 @@
 		};
 		1FEDB2B2222ECBBD008F5272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF4B3A6C1C35BF463621F85 /* Pods-GFS GOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +667,7 @@
 		};
 		1FEDB2B3222ECBBD008F5272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7450027F16B1D6EB872F529E /* Pods-GFS GOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +688,7 @@
 		};
 		1FEDB2B5222ECBBD008F5272 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E9C61ADA20EEE04978A7BC /* Pods-GFS GOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +708,7 @@
 		};
 		1FEDB2B6222ECBBD008F5272 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259C2230EC30ADB4325A3FFD /* Pods-GFS GOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
