@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hay-Tr-DOy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hay-Tr-DOy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -50,14 +50,14 @@
                     </view>
                     <connections>
                         <outlet property="signInButton" destination="S2A-mB-OD5" id="68V-ck-iLc"/>
-                        <segue destination="q45-O8-rNO" kind="show" identifier="SignInToA" id="7uf-69-lam"/>
+                        <segue destination="c1i-0B-N08" kind="show" identifier="SignInToA" id="6QB-4j-6eC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p9U-Zb-a7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="101" y="81"/>
         </scene>
-        <!--View Controller2-->
+        <!--Map-->
         <scene sceneID="O6E-cg-Br1">
             <objects>
                 <viewController id="q45-O8-rNO" customClass="ViewController2" customModule="GFS_GO" customModuleProvider="target" sceneMemberID="viewController">
@@ -66,7 +66,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vhS-Mg-Pfb">
-                                <rect key="frame" x="0.0" y="76" width="375" height="515"/>
+                                <rect key="frame" x="0.0" y="76" width="375" height="466"/>
                                 <connections>
                                     <segue destination="a2H-G7-0BX" kind="embed" id="kEM-Hj-Ogu"/>
                                 </connections>
@@ -74,26 +74,43 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="trailing" secondItem="qrq-aD-ME8" secondAttribute="trailing" id="8Pc-m3-paE"/>
-                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="top" secondItem="qrq-aD-ME8" secondAttribute="top" constant="56" id="9FT-Uw-JlU"/>
-                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="centerX" secondItem="Xl1-m4-Ljj" secondAttribute="centerX" id="Oc0-Ff-j76"/>
-                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="leading" secondItem="qrq-aD-ME8" secondAttribute="leading" id="gck-Fg-xZV"/>
-                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="centerY" secondItem="Xl1-m4-Ljj" secondAttribute="centerY" id="opp-pb-Yei"/>
-                            <constraint firstItem="qrq-aD-ME8" firstAttribute="bottom" secondItem="vhS-Mg-Pfb" secondAttribute="bottom" constant="76" id="zyZ-Me-Kxq"/>
+                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="leading" secondItem="qrq-aD-ME8" secondAttribute="leading" id="2H7-XS-bbW"/>
+                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="top" secondItem="qrq-aD-ME8" secondAttribute="top" constant="56" id="B9K-ms-hPJ"/>
+                            <constraint firstItem="vhS-Mg-Pfb" firstAttribute="trailing" secondItem="qrq-aD-ME8" secondAttribute="trailing" id="m9K-UM-OZD"/>
+                            <constraint firstItem="qrq-aD-ME8" firstAttribute="bottom" secondItem="vhS-Mg-Pfb" secondAttribute="bottom" constant="76" id="nGX-z3-pbS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qrq-aD-ME8"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Map" id="os3-lH-J9Z"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0wa-Vj-VA4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="868" y="79.610194902548727"/>
+            <point key="canvasLocation" x="1639" y="-519"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2xh-fW-Wtv">
+            <objects>
+                <tabBarController id="c1i-0B-N08" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L1M-kn-vK2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="q45-O8-rNO" kind="relationship" relationship="viewControllers" id="KUX-ND-G1d"/>
+                        <segue destination="Zso-hh-11B" kind="relationship" relationship="viewControllers" id="BPf-3N-2oe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W2Y-dW-01z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="81"/>
         </scene>
         <!--Map Controller-->
         <scene sceneID="M9W-8R-U1P">
             <objects>
                 <viewController id="a2H-G7-0BX" customClass="MapController" customModule="GFS_GO" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v1P-YN-IeY" customClass="GMSMapView">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="515"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="466"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="VIJ-FS-aQh"/>
@@ -101,7 +118,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IOF-24-TLl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="868" y="771"/>
+            <point key="canvasLocation" x="1639" y="171"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="l4c-Fs-625">
+            <objects>
+                <viewController id="Zso-hh-11B" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mM1-Rm-Rl5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ojc-gN-Otg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Schedule" id="2ps-js-aHo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYL-r6-24n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1645" y="838"/>
         </scene>
     </scenes>
 </document>
